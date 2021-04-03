@@ -1,0 +1,43 @@
+.menuBar {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	padding: 8px;
+}
+
+.menuBar-Btn_Icon,
+.menuBar-Btn_Icon-fav {
+	fill: #222;
+}
+
+.mtaBox-TextArea-Wrap,
+.mtaBox-DrawerBtn,
+.waveformBox.saladict-external,
+.dictItemHead-Logo,
+.menuBar-SearchBox_Wrap, /* 此行隐藏的悬浮窗口上的搜索框 */
+.menuBar-Btn[title="查单词"] /* 此行隐藏的悬浮窗口上的搜索按钮 */ 
+{
+	display: none;
+}
+
+.dictItem {
+	padding: 0 10px;
+}
+
+.dictItem:first-child {
+	padding-top: 10px;
+}
+
+.dictItem-Body {
+	padding: 0 3px;
+}
+
+.dictItemHead {
+	background: #eee;
+	border-radius: 6px;
+	padding: 6px;
+	height: auto;
+}
+
+.dictPanel-Root {
+	box-shadow: rgba(0, 0, 0, 0.2) 0 7px 21px 2px;
+}
