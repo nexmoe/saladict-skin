@@ -41,3 +41,6 @@
 .dictPanel-Root {
 	box-shadow: rgba(0, 0, 0, 0.2) 0 7px 21px 2px;
 }
+.isAnimate .menuBar-Btn, .isAnimate .menuBar-Btn-dir {
+    border-radius: 6px;
+}
