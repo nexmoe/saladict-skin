@@ -36,10 +36,30 @@
 	border-radius: 6px;
 	padding: 6px;
 	height: auto;
+	border-style: unset;
 }
-
+.dictItemHead-Menus_Btn svg {
+    fill: #2c2b2b17;
+}
+.dictItemHead-Title {
+    font-weight: bold;
+}
+.dictItemHead-FoldArrow {
+    padding: 5px;
+}
+.dictItemHead-Loader>div {
+    width: 4px;
+    height: 4px;
+    margin: 1px;
+    background: #99c99d;
+    border-radius: 100%;
+}
+.menuBar-Btn_Icon, .menuBar-Btn_Icon-fav, .menuBar-Btn_Icon-history {
+    width: 70%;
+    height: 70%;
+}
 .dictPanel-Root {
-	box-shadow: rgba(0, 0, 0, 0.2) 0 7px 21px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 7px 21px 2px;
 }
 .isAnimate .menuBar-Btn, .isAnimate .menuBar-Btn-dir {
     border-radius: 6px;
